@@ -1,0 +1,25 @@
+/* Example style.css for Waybar */
+bar {
+  font-family: 'Monospace';
+  font-size: 12px;
+}
+
+module {
+  padding: 5px;
+}
+
+.clock {
+  color: #ffffff;  // White color for clock module
+}
+
+.workspace {
+  color: #a0a0a0;  // Light grey color for workspace module
+}
+
+.cpu {
+  color: #00000080;  // Same color as background for CPU module
+}
+
+.memory {
+  color: #00000080;  // Same color as background for memory module
+}

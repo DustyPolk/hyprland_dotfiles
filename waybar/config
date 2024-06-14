@@ -1,0 +1,41 @@
+{
+  "bar": {
+    "position": "top",
+    "background": "#00000080",  // Slightly transparent background
+    "border": false,
+    "height": 30
+  },
+  "modules-left": ["cpu", "memory"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": ["clock"],
+  "clock": {
+    "format": "{:%I:%M %p %m-%d-%Y}",  // 12-hour time with MM-DD-YYYY format
+    "interval": 1
+  },
+  "workspace": {
+    "format": "Workspace {current}"
+  },
+  "cpu": {
+    "format": "CPU {usage}%",
+    "interval": 5
+  },
+  "memory": {
+    "format": "RAM {used}/{total} MB",
+    "interval": 5
+  },
+  "hyprland/workspaces": {
+    "persistent-workspaces": {
+      "1": [1],
+      "2": [2],
+      "3": [3],
+      "4": [4],
+      "5": [5],
+      "6": [6],
+      "7": [7],
+      "8": [8],
+      "9": [9],
+      "10": [10]
+    }
+  }
+}
+
